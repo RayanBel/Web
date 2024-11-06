@@ -1,0 +1,43 @@
+head {
+    margin: 0;
+}
+nav {
+    width: 100%;
+    background-color: #984d93;
+}
+nav img {
+    justify-content: left;
+    width: 20%;
+    padding: 10% 10%;
+}
+
+/* Estilos para la lista del menú */
+.menu {
+    width: 80%; /* El menú ocupa el 80% del ancho del contenedor padre */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos del menú a la derecha */
+}
+
+/* Estilos para los elementos de la lista */
+.menu li {
+    margin: 0 2%; /* Margen de 2% entre los elementos */
+}
+
+/* Estilos para los enlaces */
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 125%; /* Tamaño de fuente ajustado en porcentaje */
+    padding: 10% 10%; /* Relleno ajustado en porcentaje */
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el ratón sobre los enlaces */
+.menu a:hover {
+    background-color: #555;
+    border-radius: 5%; /* Borde redondeado en porcentaje */
+}
