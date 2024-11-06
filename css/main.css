@@ -6,9 +6,9 @@ nav {
     background-color: #984d93;
 }
 nav img {
-    justify-content: left;
-    width: 20%;
-    padding: 10% 10%;
+    justify-content: flex-start;
+    width: 10%;
+    padding: 5% 5%;
 }
 
 /* Estilos para la lista del menú */

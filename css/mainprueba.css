@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aa4293;
+    padding: 1% 0%;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+  nav h1 {
+    font-family: 'Times New Roman', Times, serif;
+    justify-self:center;
+    color: #f4b400;
+  }
+
+  .logo {
+    justify-self: flex-start;
+    width: 20%;
+  }
+
+  /* Estilos para el logo */
+  .logo img {
+    width: 50%; /* Ajusta el tamaño del logo */
+    margin-left: 5em;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 7em;
+  }
+  
+  .nav-links li {
+    margin-left: 2em;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f4b400; /* Cambia el color al pasar el mouse */
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .navbar h1 {
+        margin-left:1em ;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 15px;
+      margin-left: 2em;
+    }
+  
+    .nav-links li {
+      margin-left: 0;
+      margin-bottom: 1em;
+    }
+    
+    .logo {
+        justify-self: center;
+    }
+  
+    .logo img {
+      width: 100%; /* Ajusta el logo para pantallas más pequeñas */
+      margin-left: 50%;
+    }
+  }
+
+
+  footer {
+    display: flex;
+    background-color: rgb(143, 134, 134);
+    width: 100%;
+    margin: 0;
+  }
+
+  footer h1 {
+    margin-left: 2em;
+  }
+
+  footer div{
+    flex-direction: column;
+  }
+  footer ul{
+    list-style: none;
+    margin-left: 2em;
+  }
+  
