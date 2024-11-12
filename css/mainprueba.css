@@ -1,9 +1,12 @@
 /* Estilos generales */
 body {
+   display: flex;
+    flex-direction: column;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   /* Barra de navegación */
@@ -19,7 +22,6 @@ body {
   }
 
   nav h1 {
-    font-family: 'Times New Roman', Times, serif;
     justify-self:center;
     color: #f4b400;
   }
@@ -60,6 +62,37 @@ body {
     color: #f4b400; /* Cambia el color al pasar el mouse */
     transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
   }
+  /*Footer*/
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4b400;
+    width: 100%;
+    margin: 0;
+    color: #aa4293;
+  }
+
+  footer h1 {
+    margin-left: 2em;
+  }
+
+  footer div{
+    flex-direction: column;
+    width: 30%;
+    margin-left: 20% ;
+  }
+  footer ul{
+    list-style: none;
+    margin-left: 2em;
+  }
+
+  footer a{
+    text-align: end;
+    width: 30%;
+    margin-right: 20%;
+    margin-top: 2em;
+  }
   
   /* Estilos responsivos */
   @media (max-width: 768px) {
@@ -93,24 +126,3 @@ body {
       margin-left: 50%;
     }
   }
-
-
-  footer {
-    display: flex;
-    background-color: rgb(143, 134, 134);
-    width: 100%;
-    margin: 0;
-  }
-
-  footer h1 {
-    margin-left: 2em;
-  }
-
-  footer div{
-    flex-direction: column;
-  }
-  footer ul{
-    list-style: none;
-    margin-left: 2em;
-  }
-  

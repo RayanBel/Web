@@ -1,43 +1,128 @@
-head {
-    margin: 0;
-}
-nav {
-    width: 100%;
-    background-color: #984d93;
-}
-nav img {
-    justify-content: flex-start;
-    width: 10%;
-    padding: 5% 5%;
-}
-
-/* Estilos para la lista del menú */
-.menu {
-    width: 80%; /* El menú ocupa el 80% del ancho del contenedor padre */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Estilos generales */
+body {
     display: flex;
-    justify-content: flex-end; /* Alinea los elementos del menú a la derecha */
-}
-
-/* Estilos para los elementos de la lista */
-.menu li {
-    margin: 0 2%; /* Margen de 2% entre los elementos */
-}
-
-/* Estilos para los enlaces */
-.menu a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 125%; /* Tamaño de fuente ajustado en porcentaje */
-    padding: 10% 10%; /* Relleno ajustado en porcentaje */
-    display: block;
-    transition: background-color 0.3s ease;
-}
-
-/* Efecto al pasar el ratón sobre los enlaces */
-.menu a:hover {
-    background-color: #555;
-    border-radius: 5%; /* Borde redondeado en porcentaje */
-}
+     flex-direction: column;
+     font-family: 'Arial', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f4f4f4;
+     font-family: 'Times New Roman', Times, serif;
+   }
+   
+   /* Barra de navegación */
+   .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #aa4293;
+     padding: 1% 0%;
+     position: sticky;
+     top: 0;
+     width: 100%;
+   }
+ 
+   nav h1 {
+     justify-self:center;
+     color: #f4b400;
+   }
+ 
+   .logo {
+     justify-self: flex-start;
+     width: 20%;
+   }
+ 
+   /* Estilos para el logo */
+   .logo img {
+     width: 50%; /* Ajusta el tamaño del logo */
+     margin-left: 5em;
+   }
+   
+   /* Estilos para los enlaces de navegación */
+   .nav-links {
+     display: flex;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     margin-right: 7em;
+   }
+   
+   .nav-links li {
+     margin-left: 2em;
+   }
+   
+   .nav-links a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.25em;
+     font-weight: 500;
+     transition: color 0.3s, transform 0.3s;
+   }
+   
+   .nav-links a:hover {
+     color: #f4b400; /* Cambia el color al pasar el mouse */
+     transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+   }
+   /*Footer*/
+   footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #f4b400;
+     width: 100%;
+     margin: 0;
+     color: #aa4293;
+   }
+ 
+   footer h1 {
+     margin-left: 2em;
+   }
+ 
+   footer div{
+     flex-direction: column;
+     width: 30%;
+     margin-left: 20% ;
+   }
+   footer ul{
+     list-style: none;
+     margin-left: 2em;
+   }
+ 
+   footer a{
+     text-align: end;
+     width: 30%;
+     margin-right: 20%;
+     margin-top: 2em;
+   }
+   
+   /* Estilos responsivos */
+   @media (max-width: 768px) {
+     .navbar {
+       flex-direction: column;
+       align-items: flex-start;
+     }
+     
+     .navbar h1 {
+         margin-left:1em ;
+     }
+   
+     .nav-links {
+       flex-direction: column;
+       width: 100%;
+       margin-top: 15px;
+       margin-left: 2em;
+     }
+   
+     .nav-links li {
+       margin-left: 0;
+       margin-bottom: 1em;
+     }
+     
+     .logo {
+         justify-self: center;
+     }
+   
+     .logo img {
+       width: 100%; /* Ajusta el logo para pantallas más pequeñas */
+       margin-left: 50%;
+     }
+   }
