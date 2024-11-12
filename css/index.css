@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    width: 100%;
+}
+
+.izquierda {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    margin: 5% 5% 10% 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 2em;
+    border-radius: 10%;
+}
+
+.izquierda div{
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.izquierda img{
+    width: 30%;
+    margin-left: 10%;
+}
+
