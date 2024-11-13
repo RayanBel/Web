@@ -1,6 +1,7 @@
 main{
     display: flex;
     width: 100%;
+    flex-direction: column;
 }
 
 .izquierda {
@@ -10,8 +11,8 @@ main{
     margin: 5% 5% 10% 10%;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
-    padding: 2em;
+    background-color: rgba(244, 179, 0, 0.608);
+    padding: 2em ;
     border-radius: 10%;
 }
 
@@ -24,5 +25,40 @@ main{
 .izquierda img{
     width: 30%;
     margin-left: 10%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
+.derecha {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    margin: 5% 5% 10% 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(170, 66, 148, 0.608);
+    padding: 2em ;
+    border-radius: 10%;
+}
+
+.derecha div{
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.derecha img{
+    width: 30%;
+    margin-right: 10%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+section{
+    margin-bottom: -5%;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
