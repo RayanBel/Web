@@ -69,6 +69,7 @@ body {
      color: #f4b400; /* Cambia el color al pasar el mouse */
      transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
    }
+
    /*Footer*/
    footer {
      display: flex;
@@ -109,8 +110,8 @@ body {
    /* Estilos responsivos */
    @media (max-width: 768px) {
      .navbar {
-       flex-direction: column;
-       align-items: flex-start;
+      flex-direction: column;
+       align-items: center;
      }
      
      .navbar h1 {
@@ -120,13 +121,16 @@ body {
      .nav-links {
        flex-direction: column;
        width: 100%;
-       margin-top: 15px;
-       margin-left: 2em;
+       margin: 0%;
+       margin-left: 3%;
+       display: inline-block;
      }
    
      .nav-links li {
-       margin-left: 0;
+       margin-left: 2%;
        margin-bottom: 1em;
+       width: 20%;
+       display: inline-block;
      }
      
      .logo {
@@ -135,6 +139,11 @@ body {
    
      .logo img {
        width: 100%; /* Ajusta el logo para pantallas más pequeñas */
-       margin-left: 50%;
+       margin: 0;
+     }
+
+     main{
+      margin-top:40% ;
+      
      }
    }

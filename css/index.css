@@ -1,3 +1,4 @@
+
 main{
     display: flex;
     width: 100%;
@@ -61,4 +62,38 @@ section{
 section a{
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 768px) {
+
+    .izquierda{
+        flex-direction: column;
+        margin: 10% 10% 0 0;
+        margin-bottom: 10%;
+        width: 100%;
+        padding: 10% 0 0 0;
+    }
+    .izquierda img{
+        width: 50%;
+        margin: 0;
+    }
+
+    .derecha{
+        flex-direction: column-reverse;
+        margin: 10% 0 0 0;
+        margin-bottom: 10%;
+        width: 100%;
+        padding: 10% 0 0 0;
+    }
+    .derecha img{
+        width: 50%;
+        margin: 0;
+    }
+
+
+
+
+
+
+
 }
