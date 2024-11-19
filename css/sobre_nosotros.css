@@ -21,17 +21,55 @@ section h1{
 section div{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+
 
 }
-
 
 
 div p{
     width: 50%;
     margin-left: 2%;
+    font-size: 1.5em;
 }
 
 div img{
-    width: 50%;
+    width: 40%;
     margin-right: 2%;
+}
+
+@media (max-width: 768px) {
+
+    main section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section h1{
+        text-align: center;
+        font-size: 4em;
+    }
+
+    section div{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+
+    div p{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    
+    div img{
+        width: 100%;
+        margin-right: 2%;
+    }
+
+
+
+
 }
