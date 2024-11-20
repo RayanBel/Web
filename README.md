@@ -4,15 +4,14 @@ colores de la web: purpura, azul verdoso y amarillo anaranjado.
 
 ---
 
-En la carpeta del proyecto haces
-`git init`
-
-Luego abres GitHub, generas un nuevo token en [configuraciones de desarrollador > tokens](https://github.com/settings/tokens)
+Abres GitHub, generas un nuevo token en [configuraciones de desarrollador > tokens](https://github.com/settings/tokens)
 y en la carpeta del proyecto pones
 
-`git remote set-url origin <Nombre de usuario>:<token>@github.com/RayanBel/Web.git`
-
-`git pull origin main`
+```
+git init
+git remote add origin <Nombre de usuario>:<token>@github.com/RayanBel/Web.git
+git pull origin main
+```
 
 Trabajas lo que tengas que trabajar
 
