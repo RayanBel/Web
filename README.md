@@ -16,8 +16,10 @@ y en la carpeta del proyecto pones
 
 Trabajas lo que tengas que trabajar
 
-`git add .`
-`git commit -m "<Explicas lo que hiciste>"`
-`git push origin main`
+```
+git add .
+git commit -m "<Explicas lo que hiciste>"
+git push origin main
+```
 
 y sigues trabajando
