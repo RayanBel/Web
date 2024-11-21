@@ -9,7 +9,12 @@ main{
     border-radius: 10%;
     flex-direction: column;
 }
+h1 {
+    font-size: 48px;
+  }
+  
 h2{
+    font-size: 35px;
     text-align: center;
 }
 .hola{
@@ -28,4 +33,16 @@ p{
 }
 img{
     border-radius: 10%;
+}
+.adios{   
+    display: flex;
+
+}
+.adios div{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+.adios img{
+    width: 100%;
 }
