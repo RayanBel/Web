@@ -1,4 +1,4 @@
-section{
+main{
     display: flex;
     align-self: center;
     width: 80%;
@@ -8,31 +8,42 @@ section{
     background-color: rgba(244, 179, 0, 0.608);
     border-radius: 10%;
     flex-direction: column;
+    padding-top: 5%;
 }
 h1 {
-    font-weight: bold;      
-    text-align: center;     
-    font-size: 48px;        
-    margin: 20px 0;        
-}
-h1{
+    font-size: 48px;
+  }
+  
+h2{
+    font-size: 35px;
     text-align: center;
 }
-.imagenes{
-    width: 70%;
-    align-items: center;  
-    margin: 10%;
+.hola{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
 }
-.imagenes img{
+
+p{
+    font-size: 30px;
+    width: 40%;
     margin: 10%;
+}
+
+.hola div{
+    width: 40%;
+}
+img{
     border-radius: 10%;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
-.fiestalocal{
-   align-items: center;
+.adios{   
+    display: flex;
 
 }
-
+.adios div{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+.adios img{
+    width: 100%;
+}
