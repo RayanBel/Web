@@ -9,6 +9,8 @@ git pull origin main
 
 Trabajas lo que tengas que trabajar
 
+Se escribe `git pull` cada vez que se tiene que descargar desde el repo remoto
+
 ```
 git add .
 git commit -m "<Explicas lo que hiciste>"
