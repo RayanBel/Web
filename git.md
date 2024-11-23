@@ -3,7 +3,7 @@ y en la carpeta del proyecto pones
 
 ```
 git init
-git remote add origin <Nombre de usuario>:<token>@github.com/RayanBel/Web.git
+git remote add origin https://<Nombre de usuario>:<token>@github.com/RayanBel/Web.git
 git pull origin main
 ```
 
