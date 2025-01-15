@@ -1,6 +1,7 @@
 
     main{
         display: flex;
+        flex-direction: column;
     
     }
     main section{
@@ -10,8 +11,8 @@
         text-align: center;
         background-color: rgba(244, 179, 0, 0.608); 
         width: 70%;
-        margin: 15%;
-        margin-top: 10%;
+        margin: 10%;
+        margin-bottom: 2%;
         border-radius: 10%;
         padding: 5%;
     
@@ -40,3 +41,125 @@
       th {
         font-weight: bold; /* Negrita para el encabezado */
       }
+      
+      form{
+        margin-left: 30%;
+        width: 40%;
+        
+      }
+      form div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.625em; /* 10px to em */
+      }
+      
+
+      label {
+        width: 4em; /* Increased from 6.25em to over 2em */
+        font-size: 2em;
+        text-align: left;
+      }
+      input, textarea {
+        flex: 1;
+        text-align: left; /* Changed to left for normal typing direction */
+      }
+
+      button {
+        padding: 0.75em 1.5em; /* Larger size */
+        font-size: 1.2em; /* Increased font size */
+        background-color: rgba(170, 66, 148, 0.608);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+        transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    }
+    button:hover {
+        background-color: rgba(244, 179, 0, 0.608);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Highlight on hover */
+    }
+    .suscripcion label{
+      font-size: 1,5em;
+      width: 6em;
+    }
+    .suscripcion p{
+      width: 6em;
+      font-size: 0.7em;
+      margin-top: 1%;
+    }
+    
+    .borderabajo{
+      border-bottom: #000 2px solid;
+    }
+
+    @media (max-width: 768px) {
+
+      table {
+        width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
+        border-collapse: collapse; /* Elimina los bordes dobles entre celdas */
+      }
+      
+      /* Estilo para las celdas de la tabla */
+      td, th {
+        text-align: left; /* Alinea el texto a la izquierda */
+        padding: 0.5em; /* Espaciado interno para las celdas */
+        border-bottom: 0.125em solid #000; /* Solo un borde en la parte inferior */
+      }
+      
+      /* Opcional: Estilo para el encabezado (si lo deseas) */
+      th {
+        font-weight: bold; /* Negrita para el encabezado */
+      }
+      
+      /* Estilos para pantallas pequeñas */
+      @media (max-width: 768px) {
+        table {
+          width: 100%; /* Asegura que la tabla ocupe el 100% del ancho disponible */
+          
+          display: block; /* Cambia a bloque para habilitar el desplazamiento */
+        }
+      
+        /* Cambiar el tamaño del texto para mejorar la legibilidad */
+        td, th {
+          font-size: 0.875em; /* Ajusta el tamaño del texto */
+          padding: 0em; /* Menor padding para que quepan más datos */
+        }
+      
+        /* En pantallas pequeñas, es posible que quieras ocultar ciertas columnas o darles un diseño diferente */
+        th, td {
+          display: block; /* Muestra las celdas como bloques para que se apilen verticalmente */
+          width: 100%; /* Cada celda ocupará el ancho completo de la tabla */
+          text-align: center;
+        }
+      
+        th {
+          text-align: center; /* Centra el texto del encabezado */
+        }
+      
+        /* Puedes agregar un estilo para las filas, por ejemplo, separarlas con un borde */
+        tr {
+          margin-bottom: 0.625em; /* Agrega margen entre filas */
+        }
+      }
+      
+
+
+
+      form div {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+      label {
+          width: 100%;
+          margin-bottom: 0.5em;
+      }
+      input, textarea {
+          width: 100%;
+          text-align: left; /* Ensure text direction remains normal */
+      }
+      button {
+          width: 100%;
+          font-size: 1em; /* Slightly smaller font for smaller screens */
+      }
+  }
