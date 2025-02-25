@@ -40,7 +40,8 @@ body {
  
    /* Estilos para el logo */
    .logo img {
-     width: 50%; /* Ajusta el tamaño del logo */
+    margin-top: 1.5em;
+     width: 100%; /* Ajusta el tamaño del logo */
      margin-left: 5em;
    }
    
@@ -68,6 +69,13 @@ body {
    .nav-links a:hover {
      color: #f4b400; /* Cambia el color al pasar el mouse */
      transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+   }
+
+   .roww{
+    display: flex;
+     flex-direction: row;
+      justify-content: space-between;
+      width: 50%;
    }
 
    /*Footer*/
@@ -114,9 +122,6 @@ body {
        align-items: center;
      }
      
-     .navbar h1 {
-         margin-left:1em ;
-     }
    
      .nav-links {
        flex-direction: column;
@@ -135,11 +140,25 @@ body {
      
      .logo {
          justify-self: center;
+         width: 20%;
+         margin-left: 5%;
      }
    
      .logo img {
        width: 100%; /* Ajusta el logo para pantallas más pequeñas */
        margin: 0;
+     }
+     .roww{
+      display: flex;
+       flex-direction: row;
+        justify-content: space-between;
+       width: 100%;
+       
+     }
+     .navbar h1{
+      margin: 3% 3% 3% 0%;
+      width: 50%;
+      font-size: 2em;
      }
 
      main{
