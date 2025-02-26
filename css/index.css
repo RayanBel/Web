@@ -65,6 +65,56 @@ section a{
     color: black;
 }
 
+body.Modooscuro{
+    background-image:url(../Imagenes/Cielo\ nocturno.jpg);
+    
+}
+
+body.Modooscuro .navbar{
+    background-color: rgb(83, 34, 72);
+    
+}
+
+body.Modooscuro footer{
+    background-color: rgba(136, 100, 0, 0.608);
+}
+
+#cambiomodo{
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;  /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  /* Sombra sutil para darle profundidad */
+    
+    font-weight: bold;
+}
+
+.banner {
+    display: none;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    top: 20px;
+    left: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del botón */
+.btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    ;
+}
+
 @media (max-width: 768px) {
 
     .izquierda{
