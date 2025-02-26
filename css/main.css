@@ -114,6 +114,13 @@ body {
     margin-top: 10%;
    }
 
+   .caja-3d {
+    transition: box-shadow 0.3s ease-in-out;
+ 
+}
+
+
+
    
    /* Estilos responsivos */
    @media (max-width: 768px) {
