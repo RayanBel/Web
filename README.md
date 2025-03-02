@@ -10,3 +10,4 @@
 | Alejandro  | Añadir funcionalidades                     | 3 horas         | Implementación de un banner de descuento y modo oscuro |
 | Alejandro  | Realizar README                            | 1 horas         | Realizacion de documentación                           |
 | Alejandro  | JavaScript                                 | 2 horas         | Ejercicios 2,3 y 9                                     |
+| Rayane     | JavaScript                                 | 4 horas         | Ejercicios 4,7 y 8                                     |
