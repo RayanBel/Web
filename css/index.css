@@ -115,6 +115,84 @@ body.Modooscuro footer{
     ;
 }
 
+.carousel-container {
+    
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 4em;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del carrusel */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo de las imágenes del carrusel */
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Detalles de los destinos */
+.destino-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    margin-top: -10px;
+    border-radius: 10px;
+    width: 90%;
+    text-align: left;
+}
+
+.destino-info h2 {
+    margin-top: 0;
+}
+
+.destino-info p {
+    margin: 5px 0;
+}
+
+.destino-info strong {
+    color: #333;
+}
+
+/* Botones de navegación */
+.buton {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.buton:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
 @media (max-width: 768px) {
 
     .izquierda{

@@ -2,8 +2,13 @@
 const button = document.getElementById('cambiomodo');
 const body = document.body;
 
+if (localStorage.getItem("modoOscuro") === "true") {
+    body.classList.add("Modooscuro");
+}
+
 button.addEventListener('click', () => {
     body.classList.toggle('Modooscuro');
+    localStorage.setItem("modoOscuro", body.classList.contains("dark-mode"));
 
     
 });

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/servicios.css">
     <link rel="icon" type="image/x-icon" href="Imagenes/logotoguapo.png">
+    <script src="js/jscarlos.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,10 +29,24 @@
           </nav>
     </header>
     <main>
+        <div class="si">
+        <div class="banner-container">
+            <div class="banner">
+                <img src="Imagenes/excursion.jpg" alt="Imagen 1" class="active">
+                <img src="Imagenes/Cielo nocturno.jpg" alt="Imagen 2">
+                <img src="Imagenes/cielo.jpg" alt="Imagen 3">
+            </div>
+            <div class="banner-buttons">
+                <button id="prev">⏪</button>
+                <button id="next">⏩</button>
+            </div>
+        </div>
+    </div>
+    
         <section class="viajes">
             <h1>Viajes</h1>
             <div>
-                <img src="Imagenes/viajes.jpg" alt="Imagen de ventana avion">
+                <img class="imagenResaltada" src="Imagenes/viajes.jpg" alt="Imagen de ventana avion">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae itaque, consequatur necessitatibus officiis animi similique temporibus dicta nulla ullam, facere quibusdam reiciendis ducimus suscipit debitis velit vero tenetur, eos dolorum.</p>
             </div>
         </section>
@@ -39,7 +54,7 @@
             <h1>Excursiones</h1>
             <div class="reverse">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat sint nesciunt dolores odit soluta dignissimos laboriosam amet, neque earum nihil, velit placeat. Ducimus voluptate corrupti ab voluptatem maiores omnis saepe.</p>
-                <img src="Imagenes/excursion.jpg" alt="Imagen de excursion">
+                <img class="imagenResaltada" src="Imagenes/excursion.jpg" alt="Imagen de excursion">
             </div>
         </section>
     </main>
