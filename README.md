@@ -9,4 +9,4 @@
 | Alejandro  | HTML y CSS                                 | 8 horas         | Desarrollo de páginas para todos los destinos          |
 | Alejandro  | Añadir funcionalidades                     | 3 horas         | Implementación de un banner de descuento y modo oscuro |
 | Alejandro  | Realizar README                            | 1 horas         | Realizacion de documentación                           |
-| Alejandro  | JavaScript                           | 1 horas         | Ejercicios                         |
+| Alejandro  | JavaScript                                 | 2 horas         | Ejercicios 2,3 y 9                                     |
