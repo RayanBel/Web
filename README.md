@@ -11,3 +11,9 @@
 | Alejandro  | Realizar README                            | 1 horas         | Realizacion de documentación                           |
 | Alejandro  | JavaScript                                 | 2 horas         | Ejercicios 2,3 y 9                                     |
 | Rayane     | JavaScript                                 | 4 horas         | Ejercicios 4,7 y 8                                     |
+
+| Ejercicio 1| Html = index.html js = js1.js              | Creamos una array donde guardamos los datos, en este caso de viajes, a continuacion creamos una fucnion que crea un div con un carrosel que contiene los datos del array, despues creamos los dos botones de control para navegar soble el mismo|
+
+| Ejercicio 5| Html = servicios.html js = jscarlos.js              | Primero creamos una variable donde guardamos la clas css que vamos a ir modificando para que sea mas facil, luego creamos dos condicionales que son si pasamos el raton por encima agrando y si no no hace nada|
+
+| Ejercicio 6| Html = servicios.html js = jscarlos.js              | Creamos un array donde estan las imagenes guardas y luego otra variable como selector, a continuacion la funcion del baner y las dos funciones de los botones|
